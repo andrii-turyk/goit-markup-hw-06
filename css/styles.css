@@ -1146,8 +1146,6 @@ textarea:focus {
 
 /* overlay-menu */
 
-@media screen and (max-width:767.5px) {
-   
     .overlay-menu/*.is-open*/ {
         opacity: 1;
         pointer-events: auto;
@@ -1253,4 +1251,9 @@ textarea:focus {
             fill: #fff;
         }
     
+
+@media screen and (min-width:768px) {
+       .overlay-menu {
+        display: none;
+       }
 }
